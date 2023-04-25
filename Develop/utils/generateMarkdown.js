@@ -64,22 +64,22 @@ function renderLicenseSection(license) {
 function generateMarkdown(response) {
   return `
    #${response.title}
-  \ ${renderLicenseBadge(response.license)}
-  \ ##Description
-  \ ${response.description}
-  \ ##Table of Contents
-  \ ${response.tableOfContents}
-  \ ##Installation
-  \ ${response.installation}
-  \ ##Usage Information
-  \ ${response.usageInformation}
-  \ ##Contributing
-  \ ${response.contributionGuidelines}
-  \ ##Questions
-  \ If there are any additional questions, please email me at ${response.email}
+  <br /> ${renderLicenseBadge(response.license)}
+  <br /> ##Description
+  <br /> ${response.description}
+  <br /> ##Table of Contents
+  <br /> ${response.tableOfContents}
+  <br /> ##Installation
+  <br /> ${response.installation}
+  <br /> ##Usage Information
+  <br /> ${response.usageInformation}
+  <br /> ##Contributing
+  <br /> ${response.contributionGuidelines}
+  <br /> ##Questions
+  <br /> If there are any additional questions, please email me at ${response.email}
 
-  \ Here is a link to my Github profile if you'd like to check out any more of my work![github.com/users/${response.questions}](github.com/users/${response.questions})
-  \ ${renderLicenseSection(response.license)}
+  <br /> Here is a link to my Github profile if you'd like to check out any more of my work![github.com/users/${response.questions}](github.com/users/${response.questions})
+  <br /> ${renderLicenseSection(response.license)}
 `;
 }
 
