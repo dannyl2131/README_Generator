@@ -78,7 +78,7 @@ function generateMarkdown(response) {
   <br /> ##Questions
   <br /> If there are any additional questions, please email me at ${response.email}
 
-  <br /> Here is a link to my Github profile if you'd like to check out any more of my work![github.com/users/${response.questions}](github.com/users/${response.questions})
+  <br /> Here is a link to my Github profile if you'd like to check out any more of my work![github.com/${response.questions}](github.com/${response.questions})
   <br /> ${renderLicenseSection(response.license)}
 `;
 }
