@@ -1,20 +1,20 @@
 
-   #README generator
+   #J.A.T.E
   <br /> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   <br /> ##Description
-  <br /> This is a very handy tool you can use any time you create a Github repo. You will be given a series of prompts for required sections of the README. Simply answer the questions and the README will be generated for you
+  <br /> J.A.T.E (Short for Just another text editor) is a simple text editor you can use in your browser! You can also install the app to your device if you so choose
   <br /> ##Table of Contents
   <br /> 
   <br /> ##Installation
-  <br /> To install, simply clone the github repository and run 'node index.js' from the parent directory to get started
+  <br /> To install, you can clone the repository from github and simply run your npm install and run npm run start to get the app working. If installed locally, navigate to Http://localhost:3000 to run the app. Alternatively you can go to the live heroku deployment at https://jatetexteditor-b344c7ba9c18.herokuapp.com/
   <br /> ##Usage Information
-  <br /> Usage is free and available to anyone
+  <br /> 
   <br /> ##Contributing
-  <br /> To contribute, please contact me directly
+  <br /> To contribute, please send any submissions to me on github
   <br /> ##Questions
   <br /> If there are any additional questions, please email me at dannyl2131@gmail.com
 
-  <br /> Here is a link to my Github profile if you'd like to check out any more of my work![github.com/users/dannyl2131](github.com/users/dannyl2131)
+  <br /> Here is a link to my Github profile if you'd like to check out any more of my work![github.com/dannyl2131](github.com/dannyl2131)
   <br /> 
     ##License
     https://opensource.org/license/mit/      
